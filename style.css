@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.box-container{
+    width: 80%;
+    margin: 2rem auto;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5% 0%;
+}
+.box.social{
+    background-color: hsl(256, 67%, 59%);
+    color: #fff;
+}
+.social-box-content{
+    margin: 3rem 2rem;
+}
+.social-box-content .social-box-content-p{
+    font-size: 3rem;
+    text-align: center;
+}
+.social-box-content-p span{
+    color: hsl(39, 100%, 71%);
+}
+.social-box-content .star-img{
+    margin: .5rem 0px;
+    width: 40%;
+    height: auto;
+}
+.social-box-content .star-review{
+    font-size: 1rem;
+}
+
+
+.box.manage{
+    color: #000;
+    background-color: #f7f3f3;
+}
+.manage-box-content{
+    margin: 3% 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);}
